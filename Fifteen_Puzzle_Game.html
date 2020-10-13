@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Fifteen Puzzle</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="Fifteen_Puzzle_Game.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Fifteen Puzzle</h1>
+    </header>
+    <main>
+        <div id="score">MOVES - <span id="moves">0</span> &nbsp;&nbsp;TIME <span id="time">00:00</span></div>
+        <div>
+            <button id="start">START</button>
+            <button id="reset">RESET</button>
+        </div>
+        <div id="block"><span id="pause">PAUSE</span></div>
+        <table id="gameFild">
+            <tr>
+                <th id="1">1</th>
+                <th id="2">2</th>
+                <th id="3">3</th>
+                <th id="4">4</th>
+            </tr>
+            <tr>
+                <th id="5">5</th>
+                <th id="6">6</th>
+                <th id="7">7</th>
+                <th id="8">8</th>
+            </tr>
+            <tr>
+                <th id="9">9</th>
+                <th id="10">10</th>
+                <th id="11">11</th>
+                <th id="12">12</th>
+            </tr>
+            <tr>
+                <th id="13">13</th>
+                <th id="14">14</th>
+                <th id="15">15</th>
+                <th id="16"></th>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        Copyright by Andrew Dmytrenko ©
+    </footer>
+    <script src="Fifteen_Puzzle_Game.js"></script>
+</body>
+</html>

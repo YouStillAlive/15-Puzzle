@@ -1,0 +1,101 @@
+﻿body {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    background: #aaaaaa;
+    flex-direction: column;
+    font-family: Arial,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    background: black;
+    color: #6f6f6f;
+    font-weight: bold;
+    padding: 1%;
+}
+
+table {
+    margin-top: 5vh;
+    display: inline-block;
+    font-size: 60pt;
+    background: gray;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+    text-shadow: 0px 0px 5px white;
+    cursor: default;
+    user-select: none;
+    z-index: auto;
+    padding: 14px;
+}
+
+th {
+    border: 1pt solid #6f6f6f;
+    box-shadow: 0 0 10px white;
+}
+
+#score {
+    background: gray;
+    display: inline-block;
+    padding: 1%;
+    border-radius: 10px;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #aaaaaa;
+    box-shadow: 0 0 6px;
+    user-select: none;
+    max-width: 300px;
+}
+
+button {
+    margin-top: 10pt;
+    font-weight: bold;
+    padding: 1%;
+    border-radius: 10px;
+    background: gray;
+    box-shadow: 0 0 5px;
+    text-shadow: 0px 0px 5px #aaaaaa;
+    margin-left: 5pt;
+    user-select: none;
+    outline: none;
+    font-size: 1.5em;
+    font-family: Consolas;
+    max-width: 150px;
+}
+
+    button:hover {
+        box-shadow: 0 0 5px white;
+    }
+
+th:hover {
+    box-shadow: 0 0 15px white;
+}
+
+th {
+    width: 90px;
+}
+
+#pause {
+    position: relative;
+    top: 39%;
+    user-select: none;
+}
+
+#block {
+    position: absolute;
+    margin-top: 5vh;
+    display: none;
+    font-size: 60pt;
+    background: gray;
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+    text-shadow: 0px 0px 5px white;
+    z-index: 2;
+}
+
