@@ -116,26 +116,4 @@ $(document).ready(function () {
         }
         return JSON.stringify(arrValue) === JSON.stringify(["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", ""]);
     }
-    //keyboard
-    //$(window).keydown(function (event) {
-    //    if (event.keyCode == 37 || event.keyCode == 38 || event.keyCode == 39 || event.keyCode == 40) {
-    //        event.preventDefault();
-    //    }
-    //    let emptyItem = ;
-    //    switch (event.keyCode) {
-    //        case 37:
-    //            break;
-    //        case 38:
-    //            break;
-    //        case 39:
-    //            break;
-    //        case 40:
-    //            break;
-    //        default: break;
-    //    }
-    //});
-
-    //function findEmpty() {
-    //    let temp = d
-    //}
 });
