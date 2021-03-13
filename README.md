@@ -1,1 +1,1 @@
-https://youstillalive.github.io/15-Puzzle/
+http://bchgk.com/o-nas/
