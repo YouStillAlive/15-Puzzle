@@ -1,23 +1,107 @@
 ﻿<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="ru">
 <head>
-    <meta charset="utf-8" />
-    <title>Fifteen Puzzle</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Никита Щербаков - Художник</title>
     <link rel="shortcut icon" href="favicon.png" type="image/png">
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-    <link rel="stylesheet" type="text/css" href="Fifteen_Puzzle_Game.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <style>
         body {
-            background-color: red;
+            background-color: #1b1b1b;
+            color: #f5f5f5;
+            font-family: "Arial", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            background-color: #333;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+            color: #888;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        section h2 {
+            border-bottom: 2px solid #555;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            color: #888;
+        }
+        .gallery {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            max-width: 100%;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s;
+        }
+        a {
+            color: #f5f5f5;
+            text-decoration: none;
+            border-bottom: 1px dashed #f5f5f5;
+        }
+        a:hover {
+            color: #ff4500;
+            border-bottom: 1px solid #ff4500;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Никита Щербаков</h1>
+        <p>Жесткий художник. Границы — это вызов.</p>
+    </header>
     <main>
-        Никита А. Щ.
+        <section>
+            <h2>Обо мне</h2>
+            <p>Я Никита Щербаков, художник, который рушит шаблоны и переосмысливает искусство. Вдохновляюсь философией, природой и человеческими эмоциями. Мои работы — это отражение силы, смелости и уникального видения мира.</p>
+        </section>
+        <section>
+            <h2>Галерея</h2>
+            <div class="gallery">
+                <img src="art1.jpg" alt="Работа 1">
+                <img src="art2.jpg" alt="Работа 2">
+                <img src="art3.jpg" alt="Работа 3">
+                <img src="art4.jpg" alt="Работа 4">
+            </div>
+        </section>
+        <section>
+            <h2>Контакты</h2>
+            <p>По вопросам сотрудничества: <a href="mailto:nikita.art@example.com">nikita.art@example.com</a></p>
+            <p>Следите за мной в соцсетях: <a href="https://instagram.com/nikitart" target="_blank">Instagram</a></p>
+        </section>
     </main>
-    <script src="Fifteen_Puzzle_Game.js"></script>
+    <footer>
+        <p>&copy; 2024 Никита Щербаков. Все права защищены.</p>
+    </footer>
 </body>
 </html>
